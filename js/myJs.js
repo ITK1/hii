@@ -1,17 +1,16 @@
 const textConfig = {
-  text1: "He luu cậu!",
-  text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Cậu yêu tớ có phải không nào ._.",
-  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
-  text5: "Cậu mơ à???",
-  text6: "Yêu ơi là yêu <3",
-  text7: "lí do cậu thích tớ đi :vvvv",
-  text8: "Gửi cho tớ <3",
-  text9: "Vì cậu đẹp try vlllll",
-  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
-  text11:
-    "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
-  text12: "Okii lunn <3",
+  text1: "Hé luuu cậu iu 💌",
+  text2: "Tớ có điều này muốn hỏi cậu, nhớ trả lời thiệt lòng nhaaa~",
+  text3: "Cậu có thươn tớ hông đó? 🥺👉👈",
+  text4: "Nếu cậu thoát ra là đồng ý làm người yêu tớ rùi đó nha 😝",
+  text5: "Mơ đi cưng =))",
+  text6: "Yêu ơi là yêuuu 💖",
+  text7: "Nói cho tớ nghe lý do cậu thích tớ điii nà~ 😳",
+  text8: "Gửi cho tớ nghen 💌",
+  text9: "Vì cậu vừa cute vừa đáng iu huhu 🥰",
+  text10: "Tớ biết mà hihi 😘 Yêu cậu tới sao Hỏa luôn 🚀",
+  text11: "Tối nay tớ qua đón đi chơi nha 😚 Mà giờ thì inbox tớ lẹ lẹ điii~",
+  text12: "Dạ okiiiii lun 💕",
 };
 
 $(document).ready(function () {
@@ -35,7 +34,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/cuteCat.jpg",
+      imageUrl: "img/cat.png",
       imageWidth: 300,
       imageHeight: 300,
       background: '#fff url("img/iput-bg.jpg")',
@@ -118,10 +117,11 @@ $(document).ready(function () {
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
-                    url("img/giphy2.gif")
+                    url("img/cutee.gif")
                     left top
                     no-repeat
                   `,
+
       showCancelButton: false,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "http://fb.com";
+            window.location = "https://www.messenger.com/";
           },
         });
       }
